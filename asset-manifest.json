@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ArthAlpha-Text-app/static/css/main.ce8c2821.css",
+    "main.js": "/ArthAlpha-Text-app/static/js/main.3a5d41ca.js",
+    "index.html": "/ArthAlpha-Text-app/index.html",
+    "main.ce8c2821.css.map": "/ArthAlpha-Text-app/static/css/main.ce8c2821.css.map",
+    "main.3a5d41ca.js.map": "/ArthAlpha-Text-app/static/js/main.3a5d41ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce8c2821.css",
+    "static/js/main.3a5d41ca.js"
+  ]
+}
