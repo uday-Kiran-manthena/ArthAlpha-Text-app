@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ArthAlpha-Text-app/static/css/main.451ed39d.css",
+    "main.css": "/ArthAlpha-Text-app/static/css/main.ccbcf37e.css",
     "main.js": "/ArthAlpha-Text-app/static/js/main.3a5d41ca.js",
     "index.html": "/ArthAlpha-Text-app/index.html",
-    "main.451ed39d.css.map": "/ArthAlpha-Text-app/static/css/main.451ed39d.css.map",
+    "main.ccbcf37e.css.map": "/ArthAlpha-Text-app/static/css/main.ccbcf37e.css.map",
     "main.3a5d41ca.js.map": "/ArthAlpha-Text-app/static/js/main.3a5d41ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.451ed39d.css",
+    "static/css/main.ccbcf37e.css",
     "static/js/main.3a5d41ca.js"
   ]
 }
