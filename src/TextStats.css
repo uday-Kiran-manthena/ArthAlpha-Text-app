@@ -9,7 +9,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  overflow-x: hidden;
 }
 
 /* Wrapper styling */
@@ -21,7 +20,6 @@ body {
   max-width: 600px;
   width: 100%;
   margin: 20px;
-  box-sizing: border-box;
 }
 
 /* Header styling */
@@ -35,7 +33,7 @@ h2 {
 
 /* Textarea styling */
 textarea {
-  width: 100%; /* Ensure textarea takes full width of the container */
+  width: 100%;
   margin-bottom: 20px;
   padding: 15px;
   font-size: 16px;
@@ -45,18 +43,18 @@ textarea {
   background-color: #f9f9f9;
   resize: none; /* Disable resizing */
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05); /* Subtle inner shadow */
-  box-sizing: border-box;
 }
 
 /* Input field styling */
 input {
+  margin: 10px 5px;
   padding: 10px;
   font-size: 14px;
   border: 1px solid #ddd;
   border-radius: 6px;
+  width: 150px;
   box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
   font-family: "Roboto", sans-serif;
-  box-sizing: border-box;
 }
 
 button {
@@ -108,29 +106,24 @@ mark {
   align-items: center;
   justify-content: space-between; /* Spread input fields and button */
   flex-wrap: wrap;
-  gap: 10px; /* Adds spacing between input fields and button */
 }
 
 .replace-section input {
-  width: calc(50% - 10px); /* Responsive width for inputs */
+  width: 150px;
 }
 
 .replace-section button {
-  width: 100%; /* Full-width button on smaller screens */
+  margin-left: 10px;
 }
 
 @media (max-width: 600px) {
   .replace-section {
-    flex-direction: column; /* Stack inputs and button vertically on small screens */
-    gap: 10px;
+    flex-direction: column;
   }
 
   .replace-section input,
   .replace-section button {
-    width: 100%; /* Ensure inputs and button take full width on smaller screens */
-  }
-
-  textarea {
-    font-size: 14px; /* Adjust font size for textarea on small screens */
+    width: 100%;
+    margin-bottom: 10px;
   }
 }
